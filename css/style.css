@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 16px;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300px;
+  font-size: 20px;
+}
+.br-image {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  min-height: 100vh;
+  background-color: beige;
+  background-image: url(../img/prof-yhod-vl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.br-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: white;
+  opacity: 0.35;
+}
+
+.header {
+  padding: 40px 0;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.navbar-link {
+  background-color: lightpink;
+  padding: 0.5em 1em;
+  display: block;
+  color: beige;
+  text-transform: uppercase;
+  border-radius: 7px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.637);
+}
+.navbar-link:hover {
+  background-color: rgb(191, 124, 218);
+  transform: scale(1.2) translateY(-5px);
+transition: 0.25s;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  margin-bottom: 30px;
+  padding: 50px 0;
+}
+.container {
+max-width: 1280;
+margin-left: auto;
+margin-right: auto;
+padding-left: 30px;
+padding-right: 30px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+p {
+  margin-bottom: 1.5em;
+}
+
+.footer {
+  padding-bottom: 30px;
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+
