@@ -5,53 +5,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Articles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <h1>СТАТТІ</h1>
-  <div>
-    <ul>
-      <li><a href="../index.html">Головна сторінка</a></li>
-      <li><a href="articles.html">Статті</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="contacts.html">Контакти</a></li>
-      <li><a href="gallery.html">Галерея</a></li>
-      <li><a href="page-nav.html">Навігація</a></li>
-      <li><a href="registration.html">Реєстрація</a></li>
-    </ul>
-  </div>
-  <!-- перша стаття -->
-  <div>
-    <h2><a href="articles/article1.html">ПЕРША СТАТТЯ</a></h2>
-    <p>Provident, voluptas odio enim eligendi, ab eos distinctio similique aliquam cum fugit
-      eveniet omnis adipisci id nesciunt assumenda laborum ea! Molestiae, repudiandae?Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Corrupti quod error illo vero assumenda esse at, ratione, temporibus laudantium, aut
-      blanditiis obcaecati impedit consequuntur facere libero nobis! Obcaecati, iusto...<a
-        href="articles/article1.html">Читати далі</a></p>
-    <a href="articles/article1.html">Перейти до коментарів</a>
-  </div>
-  <!-- друга стаття -->
-  <div>
-    <h2><a href="articles/article2.html">ДРУГА СТАТТЯ</a></h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vero obcaecati dolor voluptatum consectetur,
-      maiores cupiditate impedit aperiam perferendis, beatae earum vitae voluptas ipsa sunt nobis dolorem excepturi
-      suscipit ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit autem iure perspiciatis
-      quaerat...<a href="articles/article2.html">Читати далі</a>
-    </p>
-    <a href="articles/article2.html">Перейти до коментарів</a>
-  </div>
-  <!-- третя стаття -->
-  <div>
-    <h2><a href="articles/article3.html">ТРЕТЯ СТАТТЯ</a></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus neque molestiae? Itaque ab quos
-      voluptas culpa officia autem, quam ex quasi, deleniti, repellendus amet ducimus perspiciatis dignissimos eligendi
-      placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere error vero ullam natus atque corrupti,
-      doloribus temporibus... <a href="articles/article3.html">Читати далі</a></p>
-    <a href="articles/article3.html">Перейти до коментарів</a>
-  </div>
+  <div class="br-image"></div>
+  <div class="br-overlay"></div>
 
-  <footer> &copy; Juliia Pohozha</footer>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">Головна сторінка</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="articles.html">Статті</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="catalog.html">Каталог</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="contacts.html">Контакти</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html">Галерея</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="page-nav.html">Навігація</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="registration.html">Реєстрація</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- перша стаття -->
+  <main class="main">
+    <div class="container">
+      <h1>СТАТТІ</h1>
+      <div>
+        <h2 class="new-article"><a class="new-artl-link" href="articles/article1.html">ПЕРША СТАТТЯ</a></h2>
+        <p>Provident, voluptas odio enim eligendi, ab eos distinctio similique aliquam cum fugit
+          eveniet omnis adipisci id nesciunt assumenda laborum ea! Molestiae, repudiandae?Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Corrupti quod error illo vero assumenda esse at, ratione, temporibus laudantium,
+          aut
+          blanditiis obcaecati impedit consequuntur facere libero nobis! Obcaecati, iusto...
+          <a class="new-artl-read" href="articles/article1.html">Читати далі</a>
+        </p>
+        <a class="new-artl-coment" href="articles/article1.html">Перейти до коментарів</a>
+      </div>
+      <!-- друга стаття -->
+      <div>
+        <h2 class="new-article"><a class="new-artl-link" href="articles/article2.html">ДРУГА СТАТТЯ</a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vero obcaecati dolor voluptatum consectetur,
+          maiores cupiditate impedit aperiam perferendis, beatae earum vitae voluptas ipsa sunt nobis dolorem excepturi
+          suscipit ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit autem iure perspiciatis
+          quaerat...<a class="new-artl-read" href="articles/article2.html">Читати далі</a>
+        </p>
+        <a class="new-artl-coment" href="articles/article2.html">Перейти до коментарів</a>
+      </div>
+      <!-- третя стаття -->
+      <div>
+        <h2 class="new-article"><a class="new-artl-link" href="articles/article3.html">ТРЕТЯ СТАТТЯ</a></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam necessitatibus neque molestiae? Itaque ab quos
+          voluptas culpa officia autem, quam ex quasi, deleniti, repellendus amet ducimus perspiciatis dignissimos
+          eligendi
+          placeat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere error vero ullam natus atque
+          corrupti,
+          doloribus temporibus... <a class="new-artl-read" href="articles/article3.html">Читати далі</a></p>
+        <a class="new-artl-coment" href="articles/article3.html">Перейти до коментарів</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">&copy; Juliia Pohozha</div>
+  </footer>
 </body>
 
 </html>

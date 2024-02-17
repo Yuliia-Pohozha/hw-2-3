@@ -90,7 +90,38 @@ p {
 
 .footer {
   padding-bottom: 30px;
-  background-color: lightgoldenrodyellow;
   text-align: center;
 }
+/* статті */
+.new-article{
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+margin-bottom: 1em;
+border-bottom: 0.8px solid;
+}
 
+.new-artl-link{
+color: rgb(51, 37, 42);
+}
+
+.new-artl-read{
+  color: lightpink;
+}
+
+.new-artl-read:hover{
+  color: rgb(219, 8, 96);
+  transform: scale(1.2) translateY(-5px);
+transition: 0.25s;
+}
+.new-artl-coment{
+color: gray;
+}
+
+.letter::first-letter{
+  color: rgb(90, 6, 45);
+ font-size: 20px;
+ font-weight: 800;
+ border: 1.5px solid;
+ padding: 1px 2px;
+ background-color: rgba(168, 96, 105, 0.479);
+}
