@@ -119,9 +119,50 @@ color: gray;
 
 .letter::first-letter{
   color: rgb(90, 6, 45);
- font-size: 20px;
+ font-size: 30px;
  font-weight: 800;
  border: 1.5px solid;
  padding: 1px 2px;
  background-color: rgba(168, 96, 105, 0.479);
+}
+
+.all-comments{
+  padding-bottom: 1em;
+}
+/* каталог */
+h2.hair{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.list-catalog{
+ flex-wrap: wrap;
+ justify-content: space-between;
+  display: flex;
+  gap: 1em;
+  padding: 1em 2em;
+}
+
+.catalog-item{
+  font-size: 20px;
+  font-weight: 400;
+
+}
+.title-list{
+  text-decoration: none;
+  margin-bottom: 1em;
+  background-color: rgba(167, 194, 204, 0.5);
+}
+
+.sublist{
+background-color: rgba(24, 151, 201, 0.363);
+font-size: 16px;
+}
+
+.new::after{
+  content: "new";
+  color: aliceblue;
+  background-color: aqua;
+  font-size: 90%;
+  padding: 2px;
 }

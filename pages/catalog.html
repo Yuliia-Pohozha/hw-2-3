@@ -5,69 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <h1>КАТАЛОГ</h1>
-  <div>
-    <ul>
-      <li><a href="../index.html">Головна сторінка</a></li>
-      <li><a href="articles.html">Статті</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="contacts.html">Контакти</a></li>
-      <li><a href="gallery.html">Галерея</a></li>
-      <li><a href="page-nav.html">Навігація</a></li>
-      <li><a href="registration.html">Реєстрація</a></li>
-    </ul>
-  </div>
+  <div class="br-image"></div>
+  <div class="br-overlay"></div>
 
-  <ul>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">Головна сторінка</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="articles.html">Статті</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="catalog.html">Каталог</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="contacts.html">Контакти</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html">Галерея</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="page-nav.html">Навігація</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="registration.html">Реєстрація</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <li>
-      <h2>Для волосся</h2>
-    </li>
+  <main class="main">
+    <div class="container">
 
-    <li>
-      <h3>Шампуні для волосся</h3>
-      <ul>
-        <li>Для сухого волосся</li>
-        <li>Для кучерявого волосся</li>
-        <li>Для неслухняного волосся</li>
-        <li>Для фарбованого волосся</li>
+      <h1>КАТАЛОГ</h1>
+      <h2 class="hair">Для волосся</h2>
+
+      <ul class="list-catalog">
+
+        <li class="catalog-item">
+          <h3 class="title-list">Шампуні для волосся</h3>
+          <ul class="sublist">
+            <li>Для сухого волосся</li>
+            <li class="new">Для кучерявого волосся</li>
+            <li>Для неслухняного волосся</li>
+            <li>Для фарбованого волосся</li>
+          </ul>
+        </li>
+        <li class="catalog-item">
+          <h3 class="title-list">Кондиціонери для волосся</h3>
+          <ul class="sublist">
+            <li>Для відновлення волосся</li>
+            <li>Для блиску волосся</li>
+            <li class="new">Для гладкості волосся</li>
+            <li>Для фарбованого волосся</li>
+          </ul>
+        </li>
+        <li class="catalog-item">
+          <h3 class="title-list">Маски для волосся</h3>
+          <ul class="sublist">
+            <li>Поживні</li>
+            <li class="new">Реконструюючі</li>
+            <li>Для гладкості волосся</li>
+            <li>Для фарбованого волосся</li>
+          </ul>
+        </li>
+        </li>
       </ul>
-    </li>
-    <li>
-      <h3>Кондиціонери для волосся</h3>
-      <ul>
-        <li>Для відновлення волосся</li>
-        <li>Для блиску волосся</li>
-        <li>Для гладкості волосся</li>
-        <li>Для фарбованого волосся</li>
-      </ul>
-    </li>
-    <li>
-      <h3>Маски для волосся</h3>
-      <ul>
-        <li>Поживні</li>
-        <li>Реконструюючі</li>
-        <li>Для гладкості волосся</li>
-        <li>Для фарбованого волосся</li>
-      </ul>
-    </li>
+    </div>
+  </main>
 
-    <li>
-      <h3>Незмивний догляд для волосся</h3>
-      <ul>
-        <li>Олійки для волосся</li>
-        <li>Спреї для волосся</li>
-        <li>Рідкі кристали</li>
-        <li>Крема для волосся</li>
-      </ul>
-    </li>
-  </ul>
-
-  <footer> &copy; Juliia Pohozha</footer>
+  <footer class="footer">
+    <div class="container">&copy; Juliia Pohozha</div>
+  </footer>
 </body>
 
 </html>

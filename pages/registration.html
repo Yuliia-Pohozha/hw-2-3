@@ -5,111 +5,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+  <div class="br-image"></div>
+  <div class="br-overlay"></div>
   <h1>РЕЄСТРАЦІЯ</h1>
-  <div>
-    <ul>
-      <li><a href="../index.html">Головна сторінка</a></li>
-      <li><a href="articles.html">Статті</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="contacts.html">Контакти</a></li>
-      <li><a href="gallery.html">Галерея</a></li>
-      <li><a href="page-nav.html">Навігація</a></li>
-      <li><a href="registration.html">Реєстрація</a></li>
-    </ul>
-  </div>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="../index.html">Головна сторінка</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="articles.html">Статті</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="catalog.html">Каталог</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="contacts.html">Контакти</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="gallery.html">Галерея</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="page-nav.html">Навігація</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="registration.html">Реєстрація</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <form action="https://tests.fomenko.top/echo/index.php" method="get">
-    <fieldset>
-      <legend>Осноні данні</legend>
-      <div>
-        <label for="sarname">Прізвище</label>
-        <input id="sarname" name="sarname" type="text" placeholder="Прізвище">
-      </div>
+  <main class="main">
+    <div class="container">
+      <form action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset>
+          <legend>Осноні данні</legend>
+          <div>
+            <label for="sarname">Прізвище</label>
+            <input id="sarname" name="sarname" type="text" placeholder="Прізвище">
+          </div>
 
-      <div>
-        <label for="name">Ім'я</label>
-        <input id="name" name="name" type="text" placeholder="Ім'я">
-      </div>
+          <div>
+            <label for="name">Ім'я</label>
+            <input id="name" name="name" type="text" placeholder="Ім'я">
+          </div>
 
-      <div>
-        <label for="date">Дата народження</label>
-        <input id="date" name="date" type="date">
-      </div>
+          <div>
+            <label for="date">Дата народження</label>
+            <input id="date" name="date" type="date">
+          </div>
 
-      <div>
-        <label for="email">Пошта</label>
-        <input id="email" name="email" type="email" placeholder="Email">
-      </div>
+          <div>
+            <label for="email">Пошта</label>
+            <input id="email" name="email" type="email" placeholder="Email">
+          </div>
 
-      <div>
-        <label for="password">Пароль</label>
-        <input id="password" name="email" type="text" placeholder="Пароль">
-      </div>
+          <div>
+            <label for="password">Пароль</label>
+            <input id="password" name="email" type="text" placeholder="Пароль">
+          </div>
 
-      <div>
-        <label for="foto">Оберіть фото</label>
-        <input id="foto" name="foto" type="submit" value="Обрати файл">
-      </div>
+          <div>
+            <label for="foto">Оберіть фото</label>
+            <input id="foto" name="foto" type="submit" value="Обрати файл">
+          </div>
 
-      <div>
-        <label for="websait">Адреса сайта</label>
-        <input id="websait" name="websait adress" type="text" value="https://mysite.name/">
-      </div>
-    </fieldset>
+          <div>
+            <label for="websait">Адреса сайта</label>
+            <input id="websait" name="websait adress" type="text" value="https://mysite.name/">
+          </div>
+        </fieldset>
 
-    <fieldset>
-      <legend>Обрати кухню</legend>
-      <div>
-        <label for="kit-ua">Українська</label>
-        <input id="kit-ua" name="kit-ua" type="checkbox" value="Ukrainian">
-      </div>
+        <fieldset>
+          <legend>Обрати кухню</legend>
+          <div>
+            <label for="kit-ua">Українська</label>
+            <input id="kit-ua" name="kit-ua" type="checkbox" value="Ukrainian">
+          </div>
 
-      <div>
-        <label for="kit-it">Італійська</label>
-        <input id="kit-it" name="kit-it" type="checkbox" value="Italiano">
-      </div>
+          <div>
+            <label for="kit-it">Італійська</label>
+            <input id="kit-it" name="kit-it" type="checkbox" value="Italiano">
+          </div>
 
-      <div>
-        <label for="kit-gr">Грузинська</label>
-        <input id="kit-gr" name="kit-gr" type="checkbox" value="Georgian">
-      </div>
-    </fieldset>
+          <div>
+            <label for="kit-gr">Грузинська</label>
+            <input id="kit-gr" name="kit-gr" type="checkbox" value="Georgian">
+          </div>
+        </fieldset>
 
-    <fieldset>
-      <legend>Обрати пол</legend>
-      <div><label for="gender-female">Жіночий</label>
-        <input id="gender-female" name="gender" type="radio" value="female">
-      </div>
+        <fieldset>
+          <legend>Обрати пол</legend>
+          <div><label for="gender-female">Жіночий</label>
+            <input id="gender-female" name="gender" type="radio" value="female">
+          </div>
 
-      <div><label for="gender-male">Чоловічий</label>
-        <input id="gender-male" name="gender" type="radio" value="male">
-      </div>
-    </fieldset>
+          <div><label for="gender-male">Чоловічий</label>
+            <input id="gender-male" name="gender" type="radio" value="male">
+          </div>
+        </fieldset>
 
-    <fieldset>
-      <legend>Коментар</legend>
-      <div>
-        <label for="txt">Коротко про себе</label>
-        <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Description"></textarea>
-      </div>
-    </fieldset>
+        <fieldset>
+          <legend>Коментар</legend>
+          <div>
+            <label for="txt">Коротко про себе</label>
+            <textarea name="txt" id="txt" cols="30" rows="10" placeholder="Description"></textarea>
+          </div>
+        </fieldset>
 
-    <fieldset>
-      <div>
-        <button type="submit">Зареєструватися</button>
-      </div>
-      <div>
-        <button type="reset">Очистити форму</button>
-      </div>
-    </fieldset>
+        <fieldset>
+          <div>
+            <button type="submit">Зареєструватися</button>
+          </div>
+          <div>
+            <button type="reset">Очистити форму</button>
+          </div>
+        </fieldset>
 
-  </form>
+      </form>
+    </div>
+  </main>
 
-  <footer> &copy; Juliia Pohozha</footer>
+
+  <footer class="footer">
+    <div class="container">&copy; Juliia Pohozha</div>
+  </footer>
 </body>
 
 </html>
